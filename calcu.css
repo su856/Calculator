@@ -1,0 +1,104 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border: 10px solid #9d9e8e;
+    height:406px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 97px;
+}
+.screen{
+    width: 397px;
+    height: 62px;
+    border: 3px solid #9d9e8e;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18px;
+    /* flex-direction: row-reverse; */
+}
+.key{
+font-size: 40px;
+width: 96px;
+height: 60px;
+border: 2px solid #9d9e8e;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 0px;
+}
+.medium{
+    width: 196px;
+    height: 60px;
+    border: 2px solid #9d9e8e;
+}
+.big{
+    width:296px;
+}
+.color{
+    background-color: white;
+}
+.colour{
+    background-color: rgb(93 109 158 / 99%);
+    color: white;
+}
+.colour:hover{
+    box-shadow:  rgb(93 109 158 / 99%) 0px 5px 15px,
+    inset #00000026 0px -10px 20px;
+}
+.boss{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    border-radius: 20px;
+    width: 99%;
+}
+.container_2{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 30px;
+}
+li > a{
+    text-decoration: none;
+    border: 2px solid black;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+    border-radius: 4px;
+    padding: 3px;
+    color: black;
+}
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.boss h1{
+    padding-top: 8px;
+    padding-left:40px;
+}
+li > a:hover{
+    color :black;
+    background: white;
+}
+.boss:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset #00000026 0px -10px 20px;
+}
+.color:hover{
+    box-shadow:  rgb(92 109 158 / 99%) 0px 5px 15px,
+    inset #0c09c026 0px -10px 20px;
+}
+.keys{
+    display: flex;
+    flex-wrap: wrap;
+}
